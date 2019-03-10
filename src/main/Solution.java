@@ -1,9 +1,9 @@
-package main;
+package main;  
 
 import java.util.*;
 import java.util.stream.Stream;
 
-public class Solution implements PuzzleResolver{
+public class Solution implements PuzzleResolver{ // метод resolve на стадии разработки
 
    public int arrayToInt(int[]someMass){  // перевод из массива в целое число
        StringBuilder s = new StringBuilder();
